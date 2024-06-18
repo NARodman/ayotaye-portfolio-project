@@ -11,3 +11,5 @@
  Google font: @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
  Day 4-: Continuing on the stylesheet, I picked out the text and background colors. For right now I chose a mix of purples as the main focus of color. This will probably changed later. The font family I chose was Dosis. 
+
+ Day 5: Finishing up the header section. Starting the home section. 

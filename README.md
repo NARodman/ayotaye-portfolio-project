@@ -10,4 +10,4 @@
  Day 3: I started the menu section and added the google font that I wanted to use, which I'll paste here. I still need to add colors, but I'm trying to decide which ones. 
  Google font: @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
- Day 4-: Continuing on the stylesheet, I picked out the text and background colors. For right now I chose a mix of purples as the main focus of color. This will probably changed later. 
+ Day 4-: Continuing on the stylesheet, I picked out the text and background colors. For right now I chose a mix of purples as the main focus of color. This will probably changed later. The font family I chose was Dosis. 

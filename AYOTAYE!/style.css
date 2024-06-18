@@ -10,14 +10,34 @@
 }
 
 :root{
-    --text-color: #f5f5f5;
-    --hover-color: ;
-    --bg-color: ;
-    --secon-bg-color: ;
+    --text-color: #daaaf5;
+    --hover-color: #a410fa;
+    --bg-color: #f5f5f5;
+    --secon-bg-color: #f3f6f4;
     --bif-font: 2.5rem;
     --norma-font: 2rem;
-    --neon-box-shadow: 0 0 .5rem;
+    --neon-box-shadow: 0 0 .5rem #a410fa;
     --h2-font: 3rem;
-    --font-neon-text-shadow: 0 0 10px rgba(), 
+    --font-neon-text-shadow: 0 0 10px rgba(73, 2, 136, 0.8), 
+    0 0 20px rgba(73, 2, 136, 0.8),
+    0 0 30px rgba(73, 2, 136, 0.8),
+    0 0 40px rgba(73, 2, 136, 0.8),
+    0 0 70px rgba(73, 2, 136, 0.8),
+    0 0 80px rgba(73, 2, 136, 0.8),
+    0 0 100px rgba(73, 2, 136, 0.8),
+    0 0 150px rgba(73, 2, 136, 0.8);
+}
 
+body {
+    font-family: 'Dosis';
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }

@@ -12,7 +12,7 @@
 :root{
     --text-color: #daaaf5;
     --hover-color: #a410fa;
-    --bg-color: #f5f5f5;
+    --bg-color: black;
     --secon-bg-color: #f3f6f4;
     --bif-font: 2.5rem;
     --norma-font: 2rem;
@@ -50,5 +50,39 @@ header {
 
 span {
     color: var(--hover-color);
+    
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.navlist a:hover {
+    color: var(--hover-color);
+    text-shadow: 0 0 10px rgba(73, 2, 136, 1.2), 
+    0 0 20px rgba(73, 2, 136, 1.2),
+    0 0 30px rgba(73, 2, 136, 1.2),
+    0 0 40px rgba(73, 2, 136, 1.2),
+    0 0 70px rgba(73, 2, 136, 1.2),
+    0 0 80px rgba(73, 2, 136, 1.2),
+    0 0 100px rgba(73, 2, 136, 1.2),
+    0 0 150px rgba(73, 2, 136, 1.2);
+}
+
+#menu-icon {
+    font-size: 1.8rem;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    background: var(--hover-color);
+    border-radius: 3px;
+    color: var(--secon-bg-color);
+    display: none;
     
 }

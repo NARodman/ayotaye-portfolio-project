@@ -29,15 +29,26 @@
 }
 
 body {
-    font-family: 'Dosis';
+    font-family: "Dosis";
     background-color: var(--bg-color);
     color: var(--text-color);
 
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+span {
+    color: var(--hover-color);
+    
 }

@@ -130,5 +130,14 @@ section {
     position: absolute;
     display: flex;
     opacity: 0;
-    
+
+}
+
+.change-text h3 .word .letter {
+    transform-origin: center center 25px;
+}
+
+.change-text h3 .word .letter.out {
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
 }

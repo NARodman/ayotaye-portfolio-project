@@ -14,7 +14,7 @@
     --hover-color: #a410fa;
     --bg-color: black;
     --secon-bg-color: #f3f6f4;
-    --bif-font: 2.5rem;
+    --big-font: 2.5rem;
     --norma-font: 2rem;
     --neon-box-shadow: 0 0 .5rem #a410fa;
     --h2-font: 3rem;
@@ -84,5 +84,44 @@ span {
     border-radius: 3px;
     color: var(--secon-bg-color);
     display: none;
+
+}
+
+section {
+    padding: 100px 10%;
+
+}
+
+.home {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4em;
+
+}
+
+.home-content {
+    max-width: 600px;
+
+}
+
+.home-content h1 {
+    font-size: var(--big-font);
+    font-weight: 800;
+
+}
+
+.change-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.change-text h3{
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
     
 }

@@ -7,8 +7,8 @@ words.forEach((word)=> {
         span.textContent = letter;
         span.className = "letter";
         word.append(span);
-    })
-})
+    });
+});
 
 let currentWordIndex = 0;
 let maxWordIndex = words.length - 1;
@@ -22,5 +22,13 @@ let changeText = ()=> {
         setTimeout(()=> {
             letter.className = "letter out";
         }, i * 80);
+    });
+
+    nextWord.style.opacity = "1";
+    Array.from(nextWord.children).forEach((letter, i)=> {
+        letter.className = "letter behind";
+        setTimeout(()=> {
+            letter.className = "letter in";
+        }, 340 + i * 80);
     });
 }

@@ -13,3 +13,5 @@
  Day 4-: Continuing on the stylesheet, I picked out the text and background colors. For right now I chose a mix of purples as the main focus of color. This will probably changed later. The font family I chose was Dosis. 
 
  Day 5: Finishing up the header section. Starting the home section. 
+
+ Day 6: Fixed the image upload, so that it had a transparent background. Started working on the JS for the occupation animation and added styles in the CSS for the home section. 

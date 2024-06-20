@@ -293,6 +293,9 @@ a.btn:nth-child(2)::before {
 
 .home-image {
     position: relative;
+    top: -57.5px;
+    width: 550px;
+    height: 550px;
 }
 
 .img-box {
@@ -300,11 +303,14 @@ a.btn:nth-child(2)::before {
 
 }
 
+
 .img-box img{
     width: 100%;
     max-width: 650px;
     height: auto;
+    animation: pulse 3.5s linear infinite;
 }
+
 
 .liquid-shape{
     position: absolute;

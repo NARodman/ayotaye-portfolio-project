@@ -272,3 +272,50 @@ a.btn:nth-child(2)::before {
 .social-icons a:hover {
     color: var(--bg-color);
 }
+
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: var(--hover-color);
+    transition: .6s;
+    z-index: -1;
+
+}
+
+.social-icons a:hover::before {
+    width: 100%;
+
+}
+
+.home-image {
+    position: relative;
+}
+
+.img-box {
+    text-align: center;
+
+}
+
+.img-box img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+.liquid-shape{
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    z-index: -1;
+    top: -5%;
+    right: -10%;
+}
+
+.liquid-shape:nth-child(2) {
+    filter: blur(50px);
+
+}

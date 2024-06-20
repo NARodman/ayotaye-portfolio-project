@@ -15,3 +15,25 @@
  Day 5: Finishing up the header section. Starting the home section. 
 
  Day 6: Fixed the image upload, so that it had a transparent background. Started working on the JS for the occupation animation and added styles in the CSS for the home section. 
+
+** Image created by me through Procreate
+ ** Blob Generator: https://lokesh-coder.github.io/blobs.app/?e=6&gw=6&se=716705&c=d1d8e0&o=0
+ ** Pulse Animation: 
+ .img-box img {
+    animation: pulse 3.5s linear infinite;
+ }
+ @keyframes pulse {
+	0% {
+		transform: scale(1.1);
+	}
+
+	50% {
+		transform: scale(0.8);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+

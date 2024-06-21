@@ -13,7 +13,7 @@
     --text-color: #daaaf5;
     --hover-color: #a410fa;
     --bg-color: black;
-    --secon-bg-color: #f3f6f4;
+    --secon-bg-color: #0D001F;
     --big-font: 2.5rem;
     --norma-font: 2rem;
     --neon-box-shadow: 0 0 .5rem #a410fa;
@@ -338,4 +338,14 @@ a.btn:nth-child(2)::before {
 .liquid-shape:nth-child(2) {
     filter: blur(50px);
 
+}
+
+/* About Section CSS */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2em;
+    background: var(--secon-bg-color);
 }

@@ -311,21 +311,6 @@ a.btn:nth-child(2)::before {
     animation: pulse 3.5s linear infinite;
 }
 
-@keyframes pulse {
-	0% {
-		transform: scale(1.1);
-	}
-
-	50% {
-		transform: scale(0.8);
-	}
-
-	100% {
-		transform: scale(1.1);
-	}
-}
-
-
 .liquid-shape{
     position: absolute;
     width: 120%;
@@ -358,6 +343,7 @@ a.btn:nth-child(2)::before {
 .about .img-about img{
     max-width: 400px;
     height: auto;
+    border-radius: 50%;
 }
 
 .about-content span {
@@ -385,4 +371,78 @@ a.btn:nth-child(2)::before {
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+}
+
+.info-about1, 
+.info-about2, 
+.info-about3 {
+    background: var(--bg-color);
+    font-size: .5rem;
+    position: absolute;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    display: block;
+    box-shadow: var(--neon-box-shadow);
+    border: 1px solid var(--hover-color);
+    outline: 2px solid var(--bg-color);
+    z-index: 100;
+    animation: morph 6s linear infinite;
+}
+
+.info-about1 {
+    left: 10%;
+    top: 34%;
+}
+
+.info-about2 {
+    left: 66%;
+    top: 15%;
+}
+
+.info-about3 {
+    left: 61%;
+    top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Keyframes */
+
+@keyframes pulse {
+	0% {
+		transform: scale(1.1);
+	}
+
+	50% {
+		transform: scale(0.8);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes morph {
+    0%,
+    100% {
+        border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    }
+    30% {
+        border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    }
+    60% {
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+    80% {
+        border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    }
 }

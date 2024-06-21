@@ -19,9 +19,14 @@
 ** Image created by me through Procreate
  ** Blob Generator: https://lokesh-coder.github.io/blobs.app/?e=6&gw=6&se=716705&c=d1d8e0&o=0
  ** Pulse Animation: 
+ ```css
  .img-box img {
     animation: pulse 3.5s linear infinite;
  }
+ 
+ ```
+ 
+ ```css
  @keyframes pulse {
 	0% {
 		transform: scale(1.1);
@@ -35,6 +40,8 @@
 		transform: scale(1.1);
 	}
 }
+ ```
+
 
 Day 7: Started adding the about section and included a placeholder image. 
 ** Placeholder image: https://picsum.photos/images#2

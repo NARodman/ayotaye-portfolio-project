@@ -36,4 +36,6 @@
 	}
 }
 
+Day 7: Started adding the about section and included a placeholder image. 
+** Placeholder image: https://picsum.photos/images#2
 

@@ -406,7 +406,11 @@ a.btn:nth-child(2)::before {
     top: 70%;
 }
 
-
+.img-about span{
+    color: var(--hover-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 
 

@@ -69,3 +69,4 @@ Day 7: Started adding the about section and included a placeholder image.
 }
 ```
 
+Day 8: Starting the services section 

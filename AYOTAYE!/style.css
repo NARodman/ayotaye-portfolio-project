@@ -493,6 +493,81 @@ a.btn:nth-child(2)::before {
 
 /* Skills Section CSS */
 
+.skills {
+    background: var(--secon-bg-color);
+}
+
+.skills-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+
+.skill-bar {
+    margin-bottom: 2.3rem;
+}
+
+.skills-main h3 {
+    margin-bottom: 2rem;
+    font-size: var(--normal-font);
+    text-align: center;
+
+}
+
+.skill-left .skill-bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow: var(--neon-box-shadow);
+}
+
+.skill-bar .bar .daws-proficiency {
+    width: 77%;
+    animation: daws-proficiency 2s;
+}
+
+.skill-bar .bar .mixing-mastering {
+    width: 65%;
+    animation: mixing-mastering 3s;
+}
+
+.skill-bar .bar .music-composition {
+    width: 69%;
+    animation: music-composition 4s;
+}
+
+.skill-bar .bar .sound-recording {
+    width: 72%;
+    animation: sound-recording 5s;
+}
+
+.skill-bar .bar .instrument-expertise {
+    width: 55%;
+    animation: instrument-expertise 6s;
+}
+
+
 
 
 
@@ -526,5 +601,55 @@ a.btn:nth-child(2)::before {
     }
     80% {
         border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    }
+}
+
+@keyframes daws-proficiency {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 77%;
+    }
+}
+
+@keyframes mixing-mastering {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes music-composition {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 69%;
+    }
+}
+
+@keyframes sound-recording {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 72%;
+    }
+}
+
+@keyframes instrument-expertise {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
     }
 }

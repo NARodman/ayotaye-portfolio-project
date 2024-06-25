@@ -439,7 +439,7 @@ a.btn:nth-child(2)::before {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    grid-gap: 2rem;
+    gap: 2rem;
 
 }
 
@@ -457,10 +457,40 @@ a.btn:nth-child(2)::before {
     justify-content: center;
 }
 
-.service-btn:hover {
+.service-box:hover {
     transform: translateY(-.7rem);
+
+}
+
+.service-icon {
+    border: 2px solid var(--hover-color);
+    padding: 2rem;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    position: relative;
+    color: var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
+}
+
+.service-box h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+
+}
+
+.service-box p {
+    margin: .5rem 0 1.5rem 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fdfdfd;
+    line-height: 1.6;
     
 }
+
 
 
 /* Keyframes */

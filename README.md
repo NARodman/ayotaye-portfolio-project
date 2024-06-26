@@ -69,6 +69,6 @@ Day 7: Started adding the about section and included a placeholder image.
 }
 ```
 
-Day 8: Added the services section and completed the skills section. The skills included are subject to change at client's discretion. 
+Day 8: Added the services section and completed the skills section. The skills included are subject to change at client's discretion. Started the Portfolio (Projects) section. 
 
-Day 9: 
+Day 9:

@@ -40,7 +40,7 @@ setInterval(changeText, 3000);
 
 // Circle Skill /////
 
-const circles = document.querySelectorAll('.circle');
+/*const circles = document.querySelectorAll('.circle');
 circles.forEach(elem=>{
     var dots = elem.getAttribute("data-dots");
     var marked = elem.getAttribute("data-percent");
@@ -59,4 +59,71 @@ circles.forEach(elem=>{
     for(let i = 0; i<percent ; i++){
         pointsMarked[i].classList.add('marked');
     }
-})
+}) */
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Intersection Observer for skill bars
+    const skillBars = document.querySelectorAll('.skill-bar .bar span');
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const span = entry.target;
+            const width = span.getAttribute('data-width');
+
+            if (entry.isIntersecting) {
+                span.style.width = `${width}%`;
+            } else {
+                span.style.width = '0';
+            }
+        });
+    }, observerOptions);
+
+    skillBars.forEach(span => {
+        span.setAttribute('data-width', span.style.width.match(/(\d+)%/)[1]);
+        observer.observe(span);
+    });
+
+    // Intersection Observer for professional skills circles
+    const circles = document.querySelectorAll('.circle');
+    const circleObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const elem = entry.target;
+            if (entry.isIntersecting) {
+                var dots = elem.getAttribute("data-dots");
+                var marked = elem.getAttribute("data-percent");
+                var percent = Math.floor(dots * marked / 100);
+                var points = "";
+                var rotate = 360 / dots;
+
+                for (let i = 0; i < dots; i++) {
+                    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
+                }
+
+                elem.innerHTML = points;
+
+                const pointsMarked = elem.querySelectorAll('.points');
+                for (let i = 0; i < percent; i++) {
+                    pointsMarked[i].classList.add('marked');
+                }
+
+                // Reveal text inside circle
+                const textBig = elem.nextElementSibling.querySelector('big');
+                textBig.style.opacity = 1;
+            } else {
+                // Reset points and text opacity
+                elem.innerHTML = "";
+                const textBig = elem.nextElementSibling.querySelector('big');
+                textBig.style.opacity = 0;
+            }
+        });
+    }, observerOptions);
+
+    circles.forEach(circle => {
+        circleObserver.observe(circle);
+    });
+});

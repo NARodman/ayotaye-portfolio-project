@@ -540,6 +540,7 @@ a.btn:nth-child(2)::before {
     background: var(--hover-color);
     border-radius: 25px;
     box-shadow: var(--neon-box-shadow);
+    transition: width 2s;
 }
 
 .skill-bar .bar .daws-proficiency {
@@ -594,6 +595,8 @@ a.btn:nth-child(2)::before {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s;
 }
 
 .box .text small {

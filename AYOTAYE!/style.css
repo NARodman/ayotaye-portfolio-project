@@ -629,6 +629,60 @@ a.btn:nth-child(2)::before {
 
 /* Portfolio CSS */
 
+.filter-buttons {
+    margin: 2rem;
+    text-align: center;
+}
+
+.filter-buttons .btn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: var(--text-color);
+}
+
+.filter-buttons .btn:hover {
+    color: var(--hover-color);
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 2rem;
+}
+
+.port-box {
+    border-radius: 2px;
+    overflow: hidden;
+    background: #11001C;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+
+}
+
+.port-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
 /* Keyframes */
 
 @keyframes pulse {

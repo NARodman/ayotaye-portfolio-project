@@ -37,3 +37,7 @@ let changeText = ()=> {
 
 changeText();
 setInterval(changeText, 3000);
+
+// Circle Skill /////
+
+const circle = document.querySelectorAll('.circle');

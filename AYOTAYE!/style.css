@@ -701,7 +701,10 @@ a.btn:nth-child(2)::before {
     padding: 0 2rem;
 }
 
-
+.port-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
 
 

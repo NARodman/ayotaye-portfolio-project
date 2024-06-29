@@ -106,3 +106,8 @@ document.addEventListener("DOMContentLoaded", function() {
         circleObserver.observe(circle);
     });
 });
+
+
+/* Mix It Up Section (Sorting for Portfolio) */
+
+var mixer = mixitup('.portfolio-gallery');

@@ -108,6 +108,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/* Mix It Up Section (Sorting for Portfolio) */
+/* Mix It Up Section (Sorting for Portfolio) 
 
-var mixer = mixitup('.portfolio-gallery');
+var mixer = mixitup('.portfolio-gallery'); */

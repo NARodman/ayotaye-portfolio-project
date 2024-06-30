@@ -738,7 +738,7 @@ a.btn:nth-child(2)::before {
 }
 
 
-/* Portfolio Option 2 */
+/* Portfolio Option 2 
 
 .portfolio-flex {
     box-sizing: border-box;
@@ -849,15 +849,14 @@ input:checked + label .description {
 }
 
 .card[for="c5"] {
-    background-image: url(https://picsum.photos/id/54/200/200)
+    background-image: url(https://picsum.photos/id/198/200/200)
 }
 
 .card[for="c6"] {
-    background-image: url(https://picsum.photos/id/27/200/200)
+    background-image: url(https://picsum.photos/id/23/200/200)
 }
 
-
-
+*/
 
 
 

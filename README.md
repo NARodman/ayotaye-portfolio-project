@@ -75,4 +75,6 @@ Day 9: Continued working on the Portfolio (Projects) section.
 
 Day 10: Continued working on the Portfolio (Projects) section and added MixItUp for animated filtering and sorting. Finished Portfolio Option 1. 
 
-Day 11: Starting Portfolio Option 2.
+Day 11: Starting Portfolio Option 2. I didn't like the way it was and I couldn't figure out how to make it responsive, so I am going to scrap it. 
+
+Day 12: 

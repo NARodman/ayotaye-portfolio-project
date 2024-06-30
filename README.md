@@ -73,4 +73,6 @@ Day 8: Added the services section and completed the skills section. The skills i
 
 Day 9: Continued working on the Portfolio (Projects) section. 
 
-Day 10: Continued working on the Portfolio (Projects) section and added MixItUp for animated filtering and sorting. 
+Day 10: Continued working on the Portfolio (Projects) section and added MixItUp for animated filtering and sorting. Finished Portfolio Option 1. 
+
+Day 11: Starting Portfolio Option 2.

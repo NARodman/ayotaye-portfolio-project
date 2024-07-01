@@ -28,6 +28,24 @@
     0 0 150px rgba(73, 2, 136, 0.8);
 }
 
+::-webkit-scrollbar {
+    height: 0;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secon-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--hover-color);
+    border-radius: 5rem;
+}
+
+
+
+
+
 body {
     font-family: "Dosis";
     background-color: var(--bg-color);
@@ -777,6 +795,43 @@ section {
     cursor: pointer;
     font-size: 1rem;
 }
+
+
+/* Footer CSS Section */
+
+footer {
+    padding: 1.5rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer p {
+    color: #fdfdfd;
+}
+
+footer a {
+    display: inline-flex;
+    justify-content: center;
+    color: var(--text-color);
+    background: var(--hover-color);
+    padding: .6rem;
+    border-radius: 5px;
+
+}
+
+footer a i {
+    font-size: 1rem;
+    color: var(--secon-bg-color);
+}
+
+
+
+
+
+
+
 
 
 

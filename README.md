@@ -77,4 +77,4 @@ Day 10: Continued working on the Portfolio (Projects) section and added MixItUp 
 
 Day 11: Starting Portfolio Option 2. I didn't like the way it was and I couldn't figure out how to make it responsive, so I am going to scrap it. 
 
-Day 12: Finished the contact section. 
+Day 12: Finished the contact section, footer section, and added css to the scroll bar. Made the navigation bar active with the sections. 

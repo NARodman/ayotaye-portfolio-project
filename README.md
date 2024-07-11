@@ -79,4 +79,7 @@ Day 11: Starting Portfolio Option 2. I didn't like the way it was and I couldn't
 
 Day 12: Finished the contact section, footer section, and added css to the scroll bar. Made the navigation bar active with the sections. 
 
-Day 13: 
+Day 13: Did some finishing touches for some responsiveness; Most of the front end of the website is finished.
+
+** This project is a prototype with placeholder images and text. Therefore, the buttons don't lead to other pages because they need to be created. Also, there are some minimal backend issues that need to be worked out. The prototype is finished for now, but I will revisit and add additional stuff at a later time. 
+
